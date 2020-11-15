@@ -12,7 +12,7 @@ import Error from './pages/Error';
 import {
   Switch,
   Route,
-  Link
+  
 } from "react-router-dom";
 
 import Navbar from './components/Navbar'
