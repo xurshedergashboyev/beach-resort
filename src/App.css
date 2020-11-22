@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manjari&display=swap');
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +25,7 @@ body {
   padding-top: 66px;
   color: var(--mainBlack);
   background: var(--mainWhite);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Hind siliguri', sans-serif;
   line-height: 1.4;
 }
 h1 {
@@ -64,6 +69,7 @@ h6 {
   transition: var(--mainTransition);
   text-transform: uppercase;
   cursor: pointer;
+  border-radius: 5px;
 }
 .btn-primary:hover {
   background: transparent;
@@ -178,6 +184,7 @@ h6 {
   text-align: center;
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
+  border-radius: 5px;
 }
 .banner h1 {
   font-size: 2.5rem;
@@ -371,6 +378,7 @@ h6 {
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-row-gap: 2rem;
   grid-column-gap: 50px;
+
 }
 .single-room-images img {
   width: 100%;

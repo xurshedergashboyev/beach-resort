@@ -5,6 +5,7 @@ import {RoomConsumer} from '../context'
 import Loading from './Loading'
 
 
+
 export default function RoomsContainer() {
     return (
         <RoomConsumer>
@@ -19,6 +20,7 @@ export default function RoomsContainer() {
                         <>
                             <RoomsFilter rooms={rooms}/>
                             <RoomList rooms={sortedRooms}/>
+                          
                         </>
                     )
                 }}
